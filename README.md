@@ -15,12 +15,12 @@ Implemented Actions:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only last recieved notification is displayed in Notification Bar,
 
 - Delete all notifications
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All notifications are removed from Notification Bar after recieving any &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;notification from given group,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All notifications are removed from Notification Bar after recieving any notification from given group,
 
 - Send Message after recieving missed call
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User can specify numbers to which will be sent text message after recieving &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;missed call. Message is provided by user,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User can specify numbers to which will be sent text message after recieving missed call. Message is provided by user,
 - Apply options in given time interval
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User can specify time range in which application will perform selected actions for &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given group of applications,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User can specify time range in which application will perform selected actions for given group of applications,
 
 User can delete created groups or modify them (add/remove applications, change options, change name of group).
 
