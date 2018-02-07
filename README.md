@@ -39,6 +39,11 @@ What the service basically does is: It registers itseft to the android system an
 
 When the NotificationListenerService identifies that a notification has been posted, removed or had its ranking modified then application perform specified actions.
 
+Most important classes:
+- MainActivity (displays created groups, first activity)
+- AddGroups (Manages adding or changing groups, user can select options for groups)
+- Notification_Listener (overwriting Android Notification Listener Service, responsible for performing actions after new notification posted)
+
 # Common problems and bugs
 
 1) After several instalations of application on the same device Notification Service can be killed and not restored by system due to misinterpreted of listener by Android system. In that case user should change name of implemented notification listener class (+ make changes in manifest).
