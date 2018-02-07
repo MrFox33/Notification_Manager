@@ -10,17 +10,17 @@ User can add selected applications installed on the device to the groups and cho
 Implemented Actions:
 
 - Delete
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notification is removed from Notification Bar,
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notification is removed from Notification Bar
 - Display only last notification
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only last recieved notification is displayed in Notification Bar,
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only last recieved notification is displayed in Notification Bar
 
 - Delete all notifications
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All notifications are removed from Notification Bar after recieving any notification from given group,
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All notifications are removed from Notification Bar after recieving any notification from given group
 
 - Send Message after recieving missed call
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User can specify numbers to which will be sent text message after recieving missed call. Message is provided by user,
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User can specify numbers to which will be sent text message after recieving missed call. Message is provided by user
 - Apply options in given time interval
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User can specify time range in which application will perform selected actions for given group of applications,
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User can specify time range in which application will perform selected actions for given group of applications
 
 User can delete created groups or modify them (add/remove applications, change options, change name of group).
 
