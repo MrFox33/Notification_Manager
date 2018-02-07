@@ -1,0 +1,50 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>README.md</title><script type="text/javascript">
+//<![CDATA[
+window.__cfRocketOptions = {byc:0,p:0,petok:"8b85c80b76315459b40b7f2ce898ab0d5423a6e3-1518014256-1800"};
+//]]>
+</script>
+<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/b7ef205d/cloudflare-static/rocket.min.js"></script>
+<style></style></head><body id="preview">
+<h1><a id="Notification_Manager_0"></a>Notification Manager</h1>
+<p>Android application created to manage notifications.</p>
+<h1><a id="Description_5"></a>Description</h1>
+<p>User can add selected applications installed on the device to the groups and choose for them actions after recieving notification (from any application included in group).</p>
+<p>Implemented Actions:</p>
+<ul>
+<li>
+<p>Delete<br>
+      Notification is removed from Notification Bar,</p>
+</li>
+<li>
+<p>Display only last notification<br>
+      Only last recieved notification is displayed in Notification Bar,</p>
+</li>
+<li>
+<p>Delete all notifications<br>
+      All notifications are removed from Notification Bar after recieving any notification from given group,</p>
+</li>
+<li>
+<p>Send Message after recieving missed call<br>
+      User can specify numbers to which will be sent text message after recieving missed call. Message is provided by user,</p>
+</li>
+<li>
+<p>Apply options in given time interval<br>
+      User can specify time range in which application will perform selected actions for given group of applications,</p>
+</li>
+</ul>
+<p>User can delete created groups or modify them (add/remove applications, change options, change name of group).</p>
+<h1><a id="Prerequisites_26"></a>Prerequisites</h1>
+<p>In order to run application on Android device API level 18 is required (Android 4.3).<br>
+Also for the application to work properly, appropriate permissions must be granted (access to contacts, sms, storage).</p>
+<h1><a id="Tech_31"></a>Tech</h1>
+<p>Application uses one external library(<a href="https://github.com/google/gson">GSON library</a>) to manage saving and reading JSON files.</p>
+<p>In order to intercept a notification received by the android system application need to have a specific service running on the system’s background. This service is called: NotificationListenerService.</p>
+<p>What the service basically does is: It registers itseft to the android system and after that starts to listen to the calls from the system when new notifications are posted or removed, or their ranking changed.</p>
+<p>When the NotificationListenerService identifies that a notification has been posted, removed or had its ranking modified then application perform specified actions.</p>
+<h1><a id="Common_problems_and_bugs_41"></a>Common problems and bugs</h1>
+<ol>
+<li>After several instalations of application on the same device Notification Service can be killed and not restored by system due to misinterpreted of listener by Android system. In that case user should change name of implemented notification listener class (+ make changes in manifest).</li>
+<li>Some applications have ‘non-removable’ notifications. In that case delete option can not perform action.</li>
+</ol>
+
+</body></html>
