@@ -41,7 +41,7 @@ When the NotificationListenerService identifies that a notification has been pos
 
 Most important classes:
 - MainActivity (displays created groups, first activity)
-- AddGroups (Manages adding or changing groups, user can select options for groups)
+- AddGroups (manages adding or changing groups, user can select options for groups)
 - Notification_Listener (overwriting Android Notification Listener Service, responsible for performing actions after new notification posted)
 
 # Common problems and bugs
